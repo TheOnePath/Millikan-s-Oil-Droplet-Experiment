@@ -1,0 +1,2 @@
+# Millikan-s-Oil-Droplet-Experiment
+A University, Physics 2nd year experiment which allows students to calculate the elementary electric charge (charge of an electron). This Python file contain preset constants, calculations and the ability to draw a graph and on top, doesn't require values to be entered individually but extracted from a csv (comma delimited). This program is for Python 3.X versions and uses packages: csv, numpy, matplotlib.pyplot and math.
