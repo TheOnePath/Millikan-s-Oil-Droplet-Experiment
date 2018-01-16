@@ -5,4 +5,4 @@ After gathering a set of results (may include repeates, so an average must be ma
 
 ### Thanks For Reading!
 
-###### _TheOnePath_
+###### _TheOnePath_.
