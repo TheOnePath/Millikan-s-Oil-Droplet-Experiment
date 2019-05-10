@@ -1,0 +1,8 @@
+** Millikan's Oil Droplet Experiement **
+----------------------------------------
+		New in v2.0
+----------------------------------------
+
+¬ Code is more refined so is more efficient to run and easier to understand
+¬ Program no longer asks user for a file name. The .csv file for containing all test data should be called 'results' and stored in the same directory as the Python program - the program first checks for the existance of the file before executing and if the file 'results.cvs' cannot be found a OSError is handled.
+¬ The program can be ran through the import statement, externally only, and calling the class Millikan(). Else the program handles with '__name__' as '__main__'.
