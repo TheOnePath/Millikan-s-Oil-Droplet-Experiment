@@ -84,6 +84,6 @@ class Millikan():
         plt.plot(x, y,'ro', xfit, yfit)
         plt.show()
 
-
+# Run module if called directly
 if __name__ == "__main__":
     app = Millikan()
