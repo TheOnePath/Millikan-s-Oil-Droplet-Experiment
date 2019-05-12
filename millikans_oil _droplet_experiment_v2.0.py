@@ -1,3 +1,4 @@
+# Windows x86 and AMD x64
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
@@ -43,11 +44,11 @@ class Millikan():
         def formulas():
             for i in range(0, len(data[:,0])):
                 t, volt, dist = time[i], voltage[i], distance[i] 
-                velocity = d/t
+                velocity = dist/t
                 
                 visc_of_air = 1.789*10**-5
                 r = ((9*visc_of_air*velocity)/rho)**(0.5)
-                q_sqrt = (visc_of_air**3*velocity**3/(2*(dens_of_oil - dens_of_air)*gravity))**(0.5)
+                q_sqrt = (visc_of_air**3*velocity**3/rho)**(0.5)
                 q = 18*pi*plate_dist/volt*q_sqrt
                 array_x_plot.append(r)
                 array_y_plot.append(q)
