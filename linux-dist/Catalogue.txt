@@ -1,0 +1,30 @@
+** Millikan's Oil Droplet Experiment **
+
+----------------------------------------
+		Dependences
+----------------------------------------
+
+¬ csv		-	python module
+¬ math		-	python module
+¬ Matplotlib	-	apt-get install python3-matplotlib	or	python3 -m pip install matplotlib
+¬ NumPy		-	apt-get install python3-numpy		or	python3 -m pip install numpy
+¬ PyQt5		-	python3 -m pip install PyQt5
+¬ Millikan	-	wget https://github.com/TheOnePath/Millikan-s-Oil-Droplet-Experiment/linux-dist/millikan_linux.py	(if full package was not installed)
+¬ window.ui	-	wget https://github.com/TheOnePath/Millikan-s-Oil-Droplet-Experiment/linux-dist/window.ui		(if full package was not installed)
+
+----------------------------------------
+		Linux Distribution
+----------------------------------------
+
+NOTE: There are NO ealier versions of this package, v2.1 is the first. Any versions listed below are the same for Windows too.
+IF the modules do not execute and file names (command 'ls' in same directory) return with apostrophies, try installing ia32-libs. 
+Otherwise report on the GitHub repository https://github.com/TheOnePath/Millikan-s-Oil-Droplet-Experiment.
+
+----------------------------------------
+		New in v2.1
+----------------------------------------
+
+¬ v2.1 now no longer generates a matplotlib graph using pyplot. This module now generates a GUI for the Millikan experiment using the PyQt5 library 
+and custom module millikan.py - see below for more on file.
+¬ NEW module millikan.py is now the v2.0 module. This module still uses the pyplot class from Matplotlib if the module is ran directly.
+¬ Scopes have been changed and module is now better for calling externally.
