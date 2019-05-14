@@ -1,0 +1,33 @@
+** Millikan's Oil Droplet Experiment **
+
+----------------------------------------
+		Dependences
+----------------------------------------
+
+¬ csv		-	python module
+¬ math		-	python module
+¬ Matplotlib	-	pip install matplotlib
+¬ NumPy		-	pip install numpy
+¬ Millikan	-	wget https://github.com/TheOnePath/Millikan-s-Oil-Droplet-Experiment/millikan.py
+¬ window.ui	-	wget https://github.com/TheOnePath/Millikan-s-Oil-Droplet-Experiment/window.ui
+
+----------------------------------------
+		New in v2.0
+----------------------------------------
+
+¬ Code is more refined so is more efficient to run and easier to understand
+¬ Program no longer asks user for a file name. The .csv file for containing all test data should be called 'results' and stored in the same directory as the Python program - the program first checks for the existance of the file before executing and if the file 'results.cvs' cannot be found a OSError is handled.
+¬ The program can be ran through the import statement, externally only, and calling the class Millikan(). Else the program handles with '__name__' as '__main__'.
+
+		10/05/2019
+
+----------------------------------------
+		New in v2.1
+----------------------------------------
+
+¬ v2.1 now no longer generates a matplotlib graph using pyplot. This module now generates a GUI for the Millikan experiment using the PyQt4 library and custom module millikan.py - see below for more on file.
+¬ NEW module millikan.py is now the v2.0 module. This module still uses the pyplot class from Matplotlib to generate the graph, however this module now processes the calculations for the graph externally and returns the values to be plotted (see HOWTO.txt on how to use).
+¬ Matplotlib pyplot is now only called when the module millikan is ran directly.
+¬ Scopes have been changed and module is now better for calling externally.
+
+		11/05/2019
